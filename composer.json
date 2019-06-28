@@ -1,0 +1,21 @@
+{
+    "name": "sergaxil/composer-example-package",
+    "description": "Example Prjgect",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Malinin Serg",
+            "email": "sergaxil@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sergaxil\\parser\\":"src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

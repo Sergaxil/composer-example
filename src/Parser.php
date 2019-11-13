@@ -22,4 +22,8 @@ class Parser implements ParserInterface
 	}
 	return $strings[i];
 }
+public function featcher($value)
+{
+	# code...
+}
 }
